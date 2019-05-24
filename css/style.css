@@ -1,0 +1,86 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font: 13px/1.5 "Titillium Web", "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	background-image: radial-gradient(#505050, #303030, #101010);
+}
+div#content{
+	width: 100%;
+	height: 70vh;
+	padding-top: 30vh;
+}
+h1,h2,h3,p{
+	cursor: default;
+	width: 100%;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+h1#qmd{
+	color: #008CBA;
+}
+.box{
+	margin: auto;
+	background-color: white;
+}
+.formBox{
+	padding: 10px 0px 25px;
+	width: 50%;
+	max-width: 300px;
+	box-shadow: 1px 1px 3px black;
+	border-radius: 10px;
+}
+.loginBox{
+	overflow: hidden;
+	height: 170px;
+}
+.signUpBox{
+	overflow: hidden;
+	height: 0px;
+}
+.successfulSignUpBox{
+	overflow: hidden;
+	height: 0px;
+}
+.inputBox{
+	padding: 0px 10%;
+}
+.btnBox{
+	padding: 0px 10%;
+	display: flex;
+}
+.btn{
+	width: 100%;
+	height: 30px;
+	margin: 5px 0px;
+	background-color: white;
+	color: black;
+	border: 1px solid #008CBA;
+	-webkit-transition-duration: 0.2s; /* Safari */
+  	transition-duration: 0.1s;
+}
+.btn:hover{
+	background-color: #008CBA;
+	color: white;
+}
+.btn:active{
+	width: 90%;
+	margin: 5px 5%; 
+}
+.input{
+	margin: 5px 0px;
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	border: none;
+}
+input#signUserNameInput{
+	margin-top: 15px;
+}
+.valMessage{
+	overflow: hidden;
+	height: 0px;
+	color: #BF2C2C;
+}
